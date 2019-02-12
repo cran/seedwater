@@ -1,0 +1,6 @@
+# Exports
+export(dryingmodels)
+export(soakingmodels)
+
+# Imports
+import(utils, rpanel, tcltk, tkrplot, stats, graphics, grDevices)
