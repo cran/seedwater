@@ -3,4 +3,4 @@ export(dryingmodels)
 export(soakingmodels)
 
 # Imports
-import(utils, rpanel, tcltk, tkrplot, stats, graphics, grDevices)
+import(utils, rpanel, tcltk, stats, graphics, grDevices)

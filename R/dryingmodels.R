@@ -1,8 +1,8 @@
 dryingmodels <- 
 function(moisture, time) 
 {
-    if (!requireNamespace("tcltk", quietly = TRUE)) 
-        stop("package tcltk is required")
+    if (!requireNamespace(c("tcltk", "tkrplot"), quietly = TRUE)) 
+        stop("packages tcltk and tkrplot are required")
     geterrmessage()
     done <- tclVar(0)
     dryingModels.env <- new.env()
